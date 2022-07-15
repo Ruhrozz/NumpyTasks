@@ -29,16 +29,19 @@ import numpy as np
 # task 53 ================================= #
 # How to rank items in an array using numpy #
 
+# np.random.seed(10)
+#
+# a = np.random.randint(20, size=10)
+# print(a.argsort().argsort())
+
+
+# task 54 ================================================= #
+# How to rank items in a multidimensional array using numpy #
+
 np.random.seed(10)
 
-a = np.random.randint(20, size=10)
+a = np.random.randint(20, size=[2, 5])
 print(a)
-print(a.argsort())
-
-
-
-
-
 
 
 
