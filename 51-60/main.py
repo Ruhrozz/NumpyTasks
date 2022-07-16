@@ -38,15 +38,19 @@ import numpy as np
 # task 54 ================================================= #
 # How to rank items in a multidimensional array using numpy #
 
-np.random.seed(10)
+# np.random.seed(10)
+#
+# a = np.random.randint(20, size=[2, 5])
+# print(a)
+# print(a.flatten().argsort().argsort().reshape(a.shape))
 
-a = np.random.randint(20, size=[2, 5])
+
+# task 55 ===================================================== #
+# How to find the maximum value in each row of a numpy array 2d #
+
+np.random.seed(100)
+a = np.random.randint(1, 10, [5, 3])
 print(a)
-
-
-
-
-
 
 
 
